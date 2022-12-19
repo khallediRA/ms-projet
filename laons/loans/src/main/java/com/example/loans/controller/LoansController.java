@@ -2,6 +2,7 @@ package com.example.loans.controller;
 
 import java.util.List;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,14 +27,17 @@ public class LoansController {
 
     @Autowired
     private LoansServiceConfig laonsConfig;
+    private static final org.slf4j.Logger Logger = LoggerFactory.getLogger(LoansController.class);
 
     @PostMapping("/myLoans")
     public List<Loans> getLoansDetails(
             @RequestHeader("eazybank-correlation-id") String correlationId,
             @RequestBody Customer customer) {
-        System.out.println("Loans Controller invoked");
+        Logger.info("getLoansDetails() method Started");
         List<Loans> loans = loansRepository.findByCustomerIdOrderByStartDtDesc(customer.getCustomerId());
         if (loans != null) {
+            Logger.info("getLoansDetails() method Ended");
+
             return loans;
         } else {
             return null;

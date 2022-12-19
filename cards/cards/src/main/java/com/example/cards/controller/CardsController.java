@@ -2,6 +2,8 @@ package com.example.cards.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,13 +28,17 @@ public class CardsController {
 
     @Autowired
     private CardsServiceConfig cardsConfig;
+    private static final Logger Logger = LoggerFactory.getLogger(CardsController.class);
 
     @PostMapping("/myCards")
     public List<Cards> getCardDetails(
             @RequestHeader("eazybank-correlation-id") String correlationId,
             @RequestBody Customer customer) {
+        Logger.info("getCardDetails() method started");
         List<Cards> cards = cardsRepository.findByCustomerId(customer.getCustomerId());
         if (cards != null) {
+            Logger.info("getCardDetails() method ended");
+
             return cards;
         } else {
             return null;

@@ -2,6 +2,8 @@ package com.example.accounts.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,6 +46,8 @@ public class AccountsController {
     @Autowired
     private CardsFeignClient cardsFeignClient;
 
+    private static final Logger Logger = LoggerFactory.getLogger(AccountsController.class);
+
     @PostMapping("/myAccount")
     public Accounts getAccountDetails(@RequestBody Customer customer) {
         Accounts accounts = accountsRepository.findByCustomerId(customer.getCustomerId());
@@ -70,6 +74,7 @@ public class AccountsController {
     @Retry(name = "retryForCustomerDetails", fallbackMethod = "myCustomerDetailsFallBack")
     public CustomerDetails myCustomerDetails(@RequestHeader("eazybank-correlation-id") String correlationId,
             @RequestBody Customer customer) {
+        Logger.info("myCustomerDetails() method started");
         Accounts accounts = accountsRepository.findByCustomerId(customer.getCustomerId());
         List<Loan> loans = loansFeignClient.getAllLoans(correlationId, customer);
         List<Card> cards = cardsFeignClient.getCardDetails(correlationId, customer);
@@ -77,6 +82,8 @@ public class AccountsController {
         customerDetails.setAccounts(accounts);
         customerDetails.setCards(cards);
         customerDetails.setLoans(loans);
+        Logger.info("myCustomerDetails() method ended");
+
         return customerDetails;
     }
 

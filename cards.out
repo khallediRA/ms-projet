@@ -1,0 +1,90 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-12-19 15:01:36.013  INFO [cards,,] 10040 --- [           main] com.example.cards.CardsApplication       : Starting CardsApplication v0.0.1-SNAPSHOT using Java 11.0.13 on DESKTOP-Q1VBOT1 with PID 10040 (C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\target\cards-0.0.1-SNAPSHOT.jar started by HP in C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked)
+2022-12-19 15:01:36.019  INFO [cards,,] 10040 --- [           main] com.example.cards.CardsApplication       : The following 1 profile is active: "dev"
+2022-12-19 15:01:36.136  INFO [cards,,] 10040 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2022-12-19 15:01:36.137  INFO [cards,,] 10040 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=cards, profiles=[dev], label=null, version=81731bac991833fe9694f4c1cb62aed8fe01942c, state=null
+2022-12-19 15:01:39.781  INFO [cards,,] 10040 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 15:01:40.794  INFO [cards,,] 10040 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 964 ms. Found 1 JPA repository interfaces.
+2022-12-19 15:01:42.292  INFO [cards,,] 10040 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=dbbc8f6c-93ba-3a2d-a806-e8d7f554e3c1
+2022-12-19 15:01:45.359  INFO [cards,,] 10040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-12-19 15:01:45.384  INFO [cards,,] 10040 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 15:01:45.384  INFO [cards,,] 10040 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-19 15:01:45.529  INFO [cards,,] 10040 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 15:01:45.529  INFO [cards,,] 10040 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9386 ms
+2022-12-19 15:01:46.055  INFO [cards,,] 10040 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 15:01:46.786  INFO [cards,,] 10040 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 15:01:46.812  INFO [cards,,] 10040 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 15:01:51.706  INFO [cards,,] 10040 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 15:01:51.910  INFO [cards,,] 10040 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-19 15:01:52.508  INFO [cards,,] 10040 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 15:01:52.930  INFO [cards,,] 10040 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 15:01:54.566  INFO [cards,,] 10040 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 15:01:54.583  INFO [cards,,] 10040 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 15:01:55.581  WARN [cards,,] 10040 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 15:01:59.611  INFO [cards,,] 10040 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-19 15:02:00.887  WARN [cards,,] 10040 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-19 15:02:01.090  INFO [cards,,] 10040 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-12-19 15:02:01.234  INFO [cards,,] 10040 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-19 15:02:01.474  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-19 15:02:01.490  INFO [cards,,] 10040 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:02:01.563  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-19 15:02:01.563  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-19 15:02:01.563  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-19 15:02:01.563  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-19 15:02:01.564  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-19 15:02:01.564  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-19 15:02:01.564  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-19 15:02:01.978  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-19 15:02:01.983  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-19 15:02:01.989  INFO [cards,,] 10040 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-19 15:02:01.996  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671458521995 with initial instances count: 1
+2022-12-19 15:02:02.009  INFO [cards,,] 10040 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CARDS with eureka with status UP
+2022-12-19 15:02:02.010  INFO [cards,,] 10040 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671458522010, current=UP, previous=STARTING]
+2022-12-19 15:02:02.012  INFO [cards,,] 10040 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARDS/host.docker.internal:cards:9000: registering service...
+2022-12-19 15:02:02.058  INFO [cards,,] 10040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2022-12-19 15:02:02.060  INFO [cards,,] 10040 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9000
+2022-12-19 15:02:02.113  INFO [cards,,] 10040 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CARDS/host.docker.internal:cards:9000 - registration status: 204
+2022-12-19 15:02:02.718  INFO [cards,,] 10040 --- [           main] com.example.cards.CardsApplication       : Started CardsApplication in 30.85 seconds (JVM running for 32.752)
+2022-12-19 15:07:01.602  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:12:01.668  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:17:01.709  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:22:01.727  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:27:01.734  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:32:01.751  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:37:01.754  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:42:01.766  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:47:01.778  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:52:01.787  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:57:01.804  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:02:01.816  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:07:01.823  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:12:01.828  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:17:01.835  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:22:01.853  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:27:01.858  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:32:01.876  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:37:01.888  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:42:01.906  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:47:01.919  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:52:01.924  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:57:01.933  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:02:01.935  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:07:01.947  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:12:01.957  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:17:01.972  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:19:09.557  INFO [cards,86b63becd4e46e41,0b872725067f6b76] 10040 --- [nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 17:19:09.567  INFO [cards,86b63becd4e46e41,0b872725067f6b76] 10040 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 17:19:09.587  INFO [cards,86b63becd4e46e41,0b872725067f6b76] 10040 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2022-12-19 17:19:10.160  INFO [cards,86b63becd4e46e41,0b872725067f6b76] 10040 --- [nio-9000-exec-1] c.e.cards.controller.CardsController     : getCardDetails() method started
+2022-12-19 17:19:11.291  INFO [cards,86b63becd4e46e41,0b872725067f6b76] 10040 --- [nio-9000-exec-1] c.e.cards.controller.CardsController     : getCardDetails() method ended
+2022-12-19 17:19:19.126  INFO [cards,3259ec2320407143,b6bcd19459aa66b9] 10040 --- [nio-9000-exec-2] c.e.cards.controller.CardsController     : getCardDetails() method started
+2022-12-19 17:19:19.129  INFO [cards,3259ec2320407143,b6bcd19459aa66b9] 10040 --- [nio-9000-exec-2] c.e.cards.controller.CardsController     : getCardDetails() method ended
+2022-12-19 17:22:02.003  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

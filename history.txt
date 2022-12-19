@@ -1,0 +1,500 @@
+   64  cd ..
+   65  ls
+   66  cd bin/
+   67  ls
+   68  cd c/
+   69  cd c
+   70  cd c:
+   71  cd Users/
+   72  dir
+   73  cd cd HP/
+   74  cd HP/
+   75  cd Desktop/
+   76  cd SpringBootProjects/udemy\ cours\ rework
+   77  ls
+   78  dir
+   79  ls
+   80  ls -lah
+   81  cd SpringBootProjects/
+   82  cd "udemy cours rework"
+   83  ls -lah
+   84  cd "udemy cours reworked"/
+   85  dir
+   86  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar &
+   87  nohup java -jar eurakaserver/target/eurakaserver-0.0.1-SNAPSHOT.jar &
+   88  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar &
+   89  nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war &
+   90  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar &
+   91  nohup java -jar gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war & 
+   92  ps -W |grep java
+   93  cd gatewayserver/
+   94  ps -W |grep java
+   95  code .
+   96  ls
+   97  cd target/
+   98  ls
+   99  cd ..
+  100  cd C:
+  101  cd Users/
+  102  cd HP/Desktop/SpringBootProjects/udemy\ cours\ reworked
+  103  dir
+  104  ls 
+  105  ls -lah 
+  106  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar &
+  107  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar &
+  108  nohup java -jar eurakaserver/target/eurakaserver-0.0.1-SNAPSHOT.jar &
+  109  nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war &
+  110  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar &
+  111  ps -W | grep java
+  112  cd gatewayserver/
+  113  ls
+  114  code .
+  115  free -m
+  116  df -h
+  117  df -
+  118  df -H
+  119  cd ../accounts/accounts/
+  120  code .
+  121  code ../../laons/loans/
+  122  code ../../cards/cards/
+  123  ps -W | grep java
+  124  kill -9 7416
+  125  kill -9 1324
+  126  kill -9 1330
+  127  kill -9 1342
+  128  kill -9 1348
+  129  ps -W | grep java
+  130  mvn clean package -DskipTests
+  131  cd ../../laons/loans/
+  132  mvn clean package -DskipTests
+  133  cd ../../cards/cards/
+  134  mvn clean package -DskipTests
+  135  cd target/
+  136  ls
+  137  dir
+  138  ls -lah
+  139  whereami
+  140  PWD
+  141  cd /c/Users/HP/Desktop/SpringBootProjects/udemy cours reworked/cards/cards/target
+  142  cd "c/Users/HP/Desktop/SpringBootProjects/udemy cours reworked/cards/cards/target"
+  143  cd "/c/Users/HP/Desktop/SpringBootProjects/udemy cours reworked/cards/cards/target"
+  144  cd ...
+  145  cd ..
+  146  cd ..
+  147  cd "/c/Users/HP/Desktop/SpringBootProjects/udemy cours reworked/cards/cards/target"
+  148  cd ..
+  149  cd ..
+  150  cd ..
+  151  vim runner.sh
+  152  vim runner.sh
+  153  ls
+  154  ls -lah
+  155  nohup bash runner.sh &
+  156  tail -f nohup.out 
+  157  ps -W | grep java
+  158  tail -f nohup.out
+  159  ps -W | grep java
+  160  kill -9 1336
+  161  vim runner.sh
+  162  nohup bash runner.sh &
+  163  tail -f runner.sh 
+  164  clear
+  165  clear
+  166  ps -W | grep java
+  167  sleep 5
+  168  vim runner.sh 
+  169  ps -W | grep java
+  170  clear
+  171  ps -W | grep java
+  172  cd C:
+  173  cd Users/HP/Desktop/SpringBootProjects/udemy\ cours\ reworked/
+  174  dir
+  175  ls
+  176  cd cards/cards/
+  177  nohup mvn spring-boot:build-image -DskipTests &
+  178  tail -f nohup.out 
+  179  cd ../../gatewayserver/
+  180  nohup mvn spring-boot:build-image -DskipTests & 
+  181  tail -f nohup.out 
+  182  tail -f nohup.out 
+  183  vim pom.xml 
+  184  nohup mvn spring-boot:build-image -DskipTests & 
+  185  tail -f nohup.out 
+  186  df -H
+  187  cd ..
+  188  docker images
+  189  ps -W | grep java
+  190  ps -W | grep java
+  191  kill -9 1746
+  192  kill -9 1751 1752 1753 1754
+  193  ps -W | grep java
+  194  cd C:/
+  195  cd Users/HP/Desktop/SpringBootProjects/udemy\ cours\ reworked
+  196  cd laons/loans/
+  197  mvn spring-boot:build-image -DskipTests
+  198  cd ../..
+  199  cd cards/
+  200  cd cards/
+  201  cd C
+  202  c:
+  203  cd c:
+  204  cd Users/HP/Desktop/SpringBootProjects/
+  205  ls
+  206  cd udemy\ cours \ reworked
+  207  cd udemy\ cours\ reworked/
+  208  ls
+  209  mvn -f accounts/accounts/ clean packge -DskipTests
+  210  cd accounts/accounts/
+  211  code .
+  212  mvn -f accounts/accounts/ clean package -DskipTests
+  213  cd ..
+  214  cd ..
+  215  mvn -f accounts/accounts/ clean package -DskipTests
+  216  mvn -f laons/loans/ clean package -DskipTests
+  217  mvn -f cards/cards/ clean package -DskipTests
+  218  mvn -f configserver/ clean package -DskipTests
+  219  mvn -f eurakaserver/ clean package -DskipTests
+  220  vim eurakaserver/pom.xml
+  221  vim eurakaserver/pom.xml
+  222  mvn -f eurakaserver/ clean package -DskipTests
+  223  mvn -f gatewayserver/ clean package -DskipTests
+  224  clear
+  225  ls -lah
+  226  vim runner.sh 
+  227  nohup bash runner.sh 
+  228  tail -f nohup.out 
+  229  clear
+  230  ps -W | grep java
+  231  kill -6 2508 2512 2514 216 
+  232  kill -6 2508 2512 2514 2516 
+  233  clear
+  234  vim runner.sh 
+  235  cd gatewayserver/
+  236  cd target/
+  237  ls
+  238  cd ..
+  239  cd target/
+  240  ls -lah
+  241  cd ..
+  242  cd ..
+  243  vim runner.sh 
+  244  nohup bash runner.sh
+  245  tail -f nohup.out 
+  246  ps -W | grep java
+  247  kill-9 2622 2626 26288 2630
+  248  kill -9 2622 2626 26288 2630
+  249  kill -9 2622 2626 2628 2630
+  250  vim runner.sh 
+  251  vi nohup.out 
+  252  cd eurakaserver/target/
+  253  ls
+  254  cd ..
+  255  cd ..
+  256  vim runner.sh 
+  257  cd eurakaserver/
+  258  cd target/
+  259  ls
+  260  ls -lah
+  261  pwd
+  262  vim ../../runner.sh
+  263  cd ../..
+  264  nohup bash runner.sh 
+  265  tail -f nohup.out 
+  266  ps -W | grep java
+  267  kill -6 2750 2752 2754 2756 2758 
+  268  kill -9 2750 2752 2754 2756 2758 
+  269  ps -W | grep java
+  270  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar > configout.out & 
+  271  nohup java -jar eurakaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar > eureka.out &
+  272  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar > accounts.out &
+  273  nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war > loans.out &
+  274  ls -lah
+  275  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar > cards.out &
+  276  nohup gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war > gateway.out & 
+  277  tail -f gateway.out 
+  278  nohup java -jar gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war > gateway.out & 
+  279  tail -f gateway.out 
+  280  tail -f accounts.out 
+  281  clear
+  282  ls -lah
+  283  code gateway/
+  284  code gatewayserver/
+  285  ps -W | grep java
+  286  C:
+  287  cd C:
+  288  cd Users/HP/Desktop/SpringBootProjects/udemy\ cours\ reworked/
+  289  ls 
+  290  history
+  291  clear
+  292  docker images
+  293  docker image rm 582 71ff 2a37 5f9
+  294  docker images
+  295  docker ps -a
+  296  clear
+  297  docker images
+  298  clear
+  299  cd accounts/accounts/docker-compose/
+  300  cd default/
+  301  ls
+  302  vim docker-compose.yml
+  303  code .
+  304  docker compose up -d
+  305  code .
+  306  docker compose up -d
+  307  docker ps
+  308  docker logs -f 248
+  309  clear
+  310  ipconfig
+  311  ping 192.168.1.13
+  312  clear
+  313  docker ps
+  314  free -m 
+  315  du -H
+  316  du
+  317  du -m
+  318  du -g
+  319  du --help
+  320  clear
+  321  cd ../../..
+  322  cd accounts/
+  323  git add .
+  324  git commit -m "14-nov-2022 updates"
+  325  git push -u origin main 
+  326  git remote -v
+  327  ls
+  328  git remote set-url https://github.com/khallediRA/accounts-MS.git
+  329  git remote set-url https://github.com/khallediRA/accounts-MS.git
+  330  git remote set-url origin https://github.com/khallediRA/accounts-MS.git
+  331  git remote -v
+  332  git add .
+  333  git commit -m "14-nov-2022 updates"
+  334  git remote set-url https://github.com/khallediRA/accounts-MS.git
+  335  git push -u origin main 
+  336  clear
+  337  git init
+  338  git remote set-url https://github.com/khallediRA/accounts-MS.git
+  339  git remote set-url origin https://github.com/khallediRA/accounts-MS.git
+  340  git remote -v
+  341  git remote set-url origin https://github.com/khallediRA/accounts-MS.git
+  342  cd ..
+  343  cd ..
+  344  git init .
+  345  git add .
+  346  git commit "MS-project"
+  347  git commit -m "MS-project"
+  348  git remote -v
+  349  git branch -M main
+  350  git remote add origin https://github.com/khallediRA/accounts-MS.git
+  351  git push -u origin main
+  352  add .
+  353  git add .
+  354  git add accounts/accounts/
+  355  git remote -v
+  356  git add -f accounts/accounts/
+  357  cd accounts/accounts/
+  358  rm -rf .git
+  359  cd ../..
+  360  git add .
+  361  git commit -m "microserviceProject_14_11_2022"
+  362  git push -u origin main
+  363  clear
+  364  docker ps
+  365  docker logs -f 2483
+  366  clear
+  367  docker ps
+  368  cd accounts/accounts/docker-compose/default/
+  369  docker compose down
+  370  cd ../../..
+  371  cd ..
+  372  code .
+  373  code .
+  374  c:
+  375  cd c:
+  376  cd Users/HP/Desktop/SpringBootProjects/
+  377  cd acd aam_backend/
+  378  cd aam_backend/
+  379  ls
+  380  git pull 
+  381  cd ..
+  382  cd ../react_Projects/aam_frontend/
+  383  code .
+  384  cd ../../SpringBootProjects/aam_backend/
+  385  code .
+  386  cd ../../react_Projects/aam_frontend/
+  387  ls
+  388  npm run build
+  389  npm --version
+  390  cd build/
+  391  ls
+  392  code .
+  393  ls
+  394  cd Desktop/
+  395  ls
+  396  cd react_Projects/
+  397  ls
+  398  cd aam_frontend/
+  399  nohup npm run start &
+  400  tail -f nohup.out 
+  401  clear
+  402  cd ../../SpringBootProjects/
+  403  ls
+  404  cd aam_backend/
+  405  ls
+  406  mvn clean package -DskipTests
+  407  cd target/
+  408  ls
+  409  nohup java -jar aam-0.0.1-SNAPSHOT.war &
+  410  tail -f nohup.out 
+  411  ps aux | grep node
+  412  kill -9 10688
+  413  cd Desktop/
+  414  cd SpringBootProjects/
+  415  ls
+  416  ls -lah
+  417  cd udemy\ cours \reworked
+  418  cd udemy\ cours\ reworked
+  419  ls
+  420  builder.sh
+  421  history
+  422  history > history.txt
+  423  vim history.txt 
+  424  bash builder.sh
+  425  bash builder.sh clear
+  426  clear
+  427  clear
+  428  top
+  429  top
+  430  free -m
+  431  clear
+  432  vim builder.sh 
+  433  code .
+  434  nohup bash builder.sh &
+  435  tail -f nohup.out
+  436  clear
+  437  code .
+  438  nohup bash builder.sh &
+  439  tail -f nohup.out
+  440  code .
+  441  clear
+  442  nohup bash builder.sh &
+  443  tail -f nohup.out
+  444  clear
+  445  vim runner.sh 
+  446  nohup bash runner.sh &
+  447  tail -f nohup.out
+  448  cd Desktop/
+  449  cd SpringBootProjects/
+  450  cd "udemy cours reworked"
+  451  clear
+  452  ls
+  453  ls -lah
+  454  nohup bash runner.sh &
+  455  tail -f nohup.out 
+  456  curl localhost:9411
+  457  curl -i -P localhost:9411
+  458  curl -i -p localhost:9411
+  459  cd Desktop/
+  460  cd SpringBootProjects/
+  461  cd "udemy cours reworked"
+  462  nohup bash runner.sh 
+  463  tail -f nohup.out 
+  464  clear
+  465  ps aux | grep java
+  466  kill -9 2498 2505 2591 2583 2510 2508
+  467  bash runner.sh
+  468  vim runner.sh 
+  469  ps aux | grep java
+  470  kill -9 2685
+  471  nohup bash runner.sh &
+  472  tail -f nohup.out 
+  473  clear
+  474  code runner.sh 
+  475  ps aux | grep java
+  476  kill -9 2718
+  477  nohup bash runner.sh &
+  478  tail -f nohup.out 
+  479  clear
+  480  tail -f nohup.out 
+  481  clear
+  482  ps aux | grep java
+  483  kill 2766 2768 2773 2776
+  484  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar configout.out
+  485  tail -f nohup.out 
+  486  code .
+  487  ps aux| grep java
+  488  ps aux | grep java
+  489  clear
+  490  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar &
+  491  tail -f nohup.out 
+  492  nohup java -jar eurakaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar &
+  493  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar &
+  494  nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war &
+  495  nohup cards/cards/target/cards-0.0.1-SNAPSHOT.jar &
+  496  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar &
+  497  nohup java -jar gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war &
+  498  tail -f nohup.out 
+  499  clear
+  500  ps aux | grep java
+  501  cd Desktop/
+  502  ls
+  503  cd SpringBootProjects/udemy\ cours
+  504  cd ..
+  505  cd "udemy cours reworked"/
+  506  ls
+  507  ls
+  508  code runner.sh 
+  509  bash runner.sh 
+  510  ls
+  511  tail -f configserver.out 
+  512  tail -f accounts.out 
+  513  clear
+  514  ps aux | grep java
+  515  tail -f loans.out 
+  516  tail -f gateway.out
+  517  vim gateway.out 
+  518  ps aux | grep java
+  519  kill -9 15816 13072 20280 20348
+  520  sudo kill -9 15816 13072 20280 20348
+  521  ps aux | grep java
+  522  kill -9 987 997 995 993 
+  523  nohup configserver/target/configserver-0.0.1-SNAPSHOT.jar > configserver.out &
+  524  nohup eurakaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar > eureka.out &
+  525  nohup accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar > accounts.out &
+  526  tail -f eureka.out 
+  527  clear
+  528  clear
+  529  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar > configserver.out &
+  530  nohup java -jar eurakaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar > eureka.out &
+  531  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar > accounts.out &
+  532  nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar &
+  533  nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war > loans.out &
+  534  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar > cards.out &
+  535  nohup java -jar gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war & 
+  536  clear
+  537  ps aux |grep java
+  538  code .
+  539  code .
+  540   bash builder.sh 
+  541  ls
+  542  ps aux |grep java
+  543  kill -9 1192 1146 1175 1163 1181 1152 
+  544   bash builder.sh 
+  545  history
+  546  clear
+  547  history
+  548  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar > configserver.out &
+  549  nohup java -jar eurakaserver/target/eurekaserver-0.0.1-SNAPSHOT.jar > eureka.out &
+  550* nohup java -jar accounts/accounts/target/accounts-0.0.1-SNAPSHOT.jar > accounts.out &
+  551* nohup java -jar laons/loans/target/loans-0.0.1-SNAPSHOT.war > loans.out &
+  552  nohup java -jar cards/cards/target/cards-0.0.1-SNAPSHOT.jar > cards.out &
+  553   nohup java -jar gatewayserver/target/gatewayserver-0.0.1-SNAPSHOT.war &
+  554  ps aux | grep java
+  555  ps aux | grep java
+  556  history
+  557  ps aux |grep java
+  558  kill -9 1577 1566 1555 1537
+  559  nohup java -jar configserver/target/configserver-0.0.1-SNAPSHOT.jar > configserver.out &
+  560  clear
+  561  ps aux | grep java
+  562  kill -9 1619
+  563  history > history.txt

@@ -1,0 +1,98 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+2022-12-19 15:01:25.902  INFO [loans,,] 5316 --- [           main] com.example.loans.LoansApplication       : Starting LoansApplication v0.0.1-SNAPSHOT using Java 11.0.13 on DESKTOP-Q1VBOT1 with PID 5316 (C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\laons\loans\target\loans-0.0.1-SNAPSHOT.war started by HP in C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked)
+2022-12-19 15:01:25.909  INFO [loans,,] 5316 --- [           main] com.example.loans.LoansApplication       : The following 1 profile is active: "dev"
+2022-12-19 15:01:26.010  INFO [loans,,] 5316 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8071
+2022-12-19 15:01:26.010  INFO [loans,,] 5316 --- [           main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=loans, profiles=[dev], label=null, version=81731bac991833fe9694f4c1cb62aed8fe01942c, state=null
+2022-12-19 15:01:28.470  INFO [loans,,] 5316 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 15:01:28.751  INFO [loans,,] 5316 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 262 ms. Found 1 JPA repository interfaces.
+2022-12-19 15:01:29.473  INFO [loans,,] 5316 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9160b389-d6e8-3f0c-a39a-8a0c6e618186
+2022-12-19 15:01:32.627  INFO [loans,,] 5316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2022-12-19 15:01:32.652  INFO [loans,,] 5316 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-19 15:01:32.652  INFO [loans,,] 5316 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-19 15:01:39.276  INFO [loans,,] 5316 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-19 15:01:39.277  INFO [loans,,] 5316 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13263 ms
+2022-12-19 15:01:40.459  INFO [loans,,] 5316 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 15:01:41.388  INFO [loans,,] 5316 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 15:01:41.423  INFO [loans,,] 5316 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-19 15:01:46.944  INFO [loans,,] 5316 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 15:01:47.100  INFO [loans,,] 5316 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-19 15:01:47.573  INFO [loans,,] 5316 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 15:01:47.960  INFO [loans,,] 5316 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-19 15:01:49.784  INFO [loans,,] 5316 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 15:01:49.805  INFO [loans,,] 5316 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 15:01:51.212  WARN [loans,,] 5316 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 15:01:54.399  INFO [loans,,] 5316 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-12-19 15:01:55.422  WARN [loans,,] 5316 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-12-19 15:01:55.646  INFO [loans,,] 5316 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 18 endpoint(s) beneath base path '/actuator'
+2022-12-19 15:01:55.774  INFO [loans,,] 5316 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-12-19 15:01:56.044  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-12-19 15:01:56.060  INFO [loans,,] 5316 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:01:56.148  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-12-19 15:01:56.149  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-19 15:01:56.717  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-19 15:01:56.721  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-12-19 15:01:56.727  INFO [loans,,] 5316 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-12-19 15:01:56.741  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1671458516738 with initial instances count: 0
+2022-12-19 15:01:56.758  INFO [loans,,] 5316 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LOANS with eureka with status UP
+2022-12-19 15:01:56.759  INFO [loans,,] 5316 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1671458516759, current=UP, previous=STARTING]
+2022-12-19 15:01:56.764  INFO [loans,,] 5316 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOANS/host.docker.internal:loans:8090: registering service...
+2022-12-19 15:01:56.865  INFO [loans,,] 5316 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-19 15:01:56.867  INFO [loans,,] 5316 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2022-12-19 15:01:57.136  INFO [loans,,] 5316 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LOANS/host.docker.internal:loans:8090 - registration status: 204
+2022-12-19 15:01:58.481  INFO [loans,,] 5316 --- [           main] com.example.loans.LoansApplication       : Started LoansApplication in 36.063 seconds (JVM running for 37.101)
+2022-12-19 15:02:26.732  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-12-19 15:02:26.734  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-12-19 15:02:26.766  INFO [loans,,] 5316 --- [freshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-12-19 15:06:56.219  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:11:56.295  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:16:56.330  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:21:56.347  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:26:56.358  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:31:56.380  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:36:56.398  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:41:56.408  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:46:56.423  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:51:56.434  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 15:56:56.446  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:01:56.469  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:06:56.485  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:11:56.492  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:16:56.498  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:21:56.506  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:26:56.511  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:31:56.528  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:36:56.543  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:41:56.549  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:46:56.562  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:51:56.573  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 16:56:56.588  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:01:56.599  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:06:56.610  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:11:56.626  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:16:56.643  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:19:05.450  INFO [loans,86b63becd4e46e41,51070f14f5bc4874] 5316 --- [nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 17:19:05.457  INFO [loans,86b63becd4e46e41,51070f14f5bc4874] 5316 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-19 17:19:05.474  INFO [loans,86b63becd4e46e41,51070f14f5bc4874] 5316 --- [nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2022-12-19 17:19:06.220  INFO [loans,86b63becd4e46e41,51070f14f5bc4874] 5316 --- [nio-8090-exec-1] c.e.loans.controller.LoansController     : getLoansDetails() method Started
+2022-12-19 17:19:07.111  INFO [loans,86b63becd4e46e41,51070f14f5bc4874] 5316 --- [nio-8090-exec-1] c.e.loans.controller.LoansController     : getLoansDetails() method Ended
+2022-12-19 17:19:19.110  INFO [loans,3259ec2320407143,bb7995db21a42efa] 5316 --- [nio-8090-exec-2] c.e.loans.controller.LoansController     : getLoansDetails() method Started
+2022-12-19 17:19:19.113  INFO [loans,3259ec2320407143,bb7995db21a42efa] 5316 --- [nio-8090-exec-2] c.e.loans.controller.LoansController     : getLoansDetails() method Ended
+2022-12-19 17:21:56.655  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
