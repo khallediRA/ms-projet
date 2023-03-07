@@ -257,3 +257,469 @@
 [INFO] Total time:  03:19 min
 [INFO] Finished at: 2022-11-14T16:08:50+01:00
 [INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:cards:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 122, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< com.example:cards >--------------------------
+[INFO] Building cards 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.4:build-image (default-cli) > package @ cards >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ cards ---
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:cards:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 122, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< com.example:cards >--------------------------
+[INFO] Building cards 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.4:build-image (default-cli) > package @ cards >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ cards ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ cards ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ cards ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ cards ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ cards ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ cards ---
+[INFO] Building jar: C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\target\cards-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.4:repackage (repackage) @ cards ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.404 s
+[INFO] Finished at: 2022-12-19T17:34:37+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.4:repackage (repackage) on project cards: Execution repackage of goal org.springframework.boot:spring-boot-maven-plugin:2.7.4:repackage failed: Unable to rename 'C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\target\cards-0.0.1-SNAPSHOT.jar' to 'C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\target\cards-0.0.1-SNAPSHOT.jar.original' -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:cards:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.springframework.boot:spring-boot-maven-plugin @ line 122, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< com.example:cards >--------------------------
+[INFO] Building cards 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.4:build-image (default-cli) > package @ cards >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ cards ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ cards ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ cards ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\HP\Desktop\SpringBootProjects\udemy cours reworked\cards\cards\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ cards ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ cards ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ cards ---
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.4:repackage (repackage) @ cards ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.7.4:build-image (default-cli) < package @ cards <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.4:build-image (default-cli) @ cards ---
+[INFO] Building image 'docker.io/eazybytes/cards:latest'
+[INFO] 
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 0%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 1%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 2%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 3%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 4%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 5%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 6%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 7%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 8%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 9%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 10%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 11%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 12%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 13%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 14%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 15%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 15%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 16%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 16%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 16%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 17%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 18%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 19%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 20%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 20%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 20%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 21%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 21%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 21%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 21%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 21%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 22%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 23%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 24%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 24%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 25%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 26%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 26%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 26%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 27%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 27%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 27%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 27%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 27%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 28%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 29%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 29%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 30%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 30%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 30%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 31%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 35%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 39%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 43%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 46%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 50%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 52%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 53%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 56%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 58%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 61%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 62%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 65%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 67%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 68%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 70%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 71%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 74%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 75%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 77%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 77%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 78%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 78%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 79%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 82%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 83%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 83%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 84%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 84%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 85%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 85%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 85%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 88%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 89%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 90%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 91%
+[INFO]  > Pulling builder image 'docker.io/paketobuildpacks/builder:base' 100%
+[INFO]  > Pulled builder image 'paketobuildpacks/builder@sha256:a58be9c5ba9ef1aa426324b396c06ca9b4edcb05160a5d73fd0d40b88573b0a1'
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run:base-cnb' 6%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run:base-cnb' 27%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run:base-cnb' 29%
+[INFO]  > Pulling run image 'docker.io/paketobuildpacks/run:base-cnb' 100%
+[INFO]  > Pulled run image 'paketobuildpacks/run@sha256:dd32ea61706e174d594cd5fba4a38f68f1269f1be8caae1b08c1f2f84ac29060'
+[INFO]  > Executing lifecycle version v0.15.2
+[INFO]  > Using build cache volume 'pack-cache-dbdd19026c81.build'
+[INFO] 
+[INFO]  > Running creator
+[INFO]     [creator]     ===> ANALYZING
+[INFO]     [creator]     Restoring data for SBOM from previous image
+[INFO]     [creator]     ===> DETECTING
+[INFO]     [creator]     ======== Output: paketo-buildpacks/node-run-script@0.5.1 ========
+[INFO]     [creator]     open /workspace/package.json: no such file or directory
+[INFO]     [creator]     err:  paketo-buildpacks/node-run-script@0.5.1 (1)
+[INFO]     [creator]     ======== Output: paketo-buildpacks/node-run-script@0.5.1 ========
+[INFO]     [creator]     open /workspace/package.json: no such file or directory
+[INFO]     [creator]     err:  paketo-buildpacks/node-run-script@0.5.1 (1)
+[INFO]     [creator]     ======== Output: paketo-buildpacks/node-run-script@0.5.1 ========
+[INFO]     [creator]     open /workspace/package.json: no such file or directory
+[INFO]     [creator]     err:  paketo-buildpacks/node-run-script@0.5.1 (1)
+[INFO]     [creator]     ======== Output: paketo-buildpacks/node-run-script@0.5.1 ========
+[INFO]     [creator]     open /workspace/package.json: no such file or directory
+[INFO]     [creator]     err:  paketo-buildpacks/node-run-script@0.5.1 (1)
+[INFO]     [creator]     6 of 24 buildpacks participating
+[INFO]     [creator]     paketo-buildpacks/ca-certificates   3.5.1
+[INFO]     [creator]     paketo-buildpacks/bellsoft-liberica 9.10.1
+[INFO]     [creator]     paketo-buildpacks/syft              1.23.0
+[INFO]     [creator]     paketo-buildpacks/executable-jar    6.5.0
+[INFO]     [creator]     paketo-buildpacks/dist-zip          5.4.0
+[INFO]     [creator]     paketo-buildpacks/spring-boot       5.22.0
+[INFO]     [creator]     ===> RESTORING
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/ca-certificates:helper" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:helper" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:java-security-properties" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jre" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/syft:syft" from cache
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:helper" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:spring-cloud-bindings" from app image
+[INFO]     [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:web-application-type" from app image
+[INFO]     [creator]     Restoring data for "paketo-buildpacks/syft:syft" from cache
+[INFO]     [creator]     Restoring data for SBOM from cache
+[INFO]     [creator]     ===> BUILDING
+[INFO]     [creator]     
+[INFO]     [creator]     Paketo Buildpack for CA Certificates 3.5.1
+[INFO]     [creator]       https://github.com/paketo-buildpacks/ca-certificates
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_ca-certificates/helper/exec.d/ca-certificates-helper
+[INFO]     [creator]     
+[INFO]     [creator]     Paketo Buildpack for BellSoft Liberica 9.10.1
+[INFO]     [creator]       https://github.com/paketo-buildpacks/bellsoft-liberica
+[INFO]     [creator]       Build Configuration:
+[INFO]     [creator]         $BP_JVM_JLINK_ARGS           --no-man-pages --no-header-files --strip-debug --compress=1  configure custom link arguments (--output must be omitted)
+[INFO]     [creator]         $BP_JVM_JLINK_ENABLED        false                                                        enables running jlink tool to generate custom JRE
+[INFO]     [creator]         $BP_JVM_TYPE                 JRE                                                          the JVM type - JDK or JRE
+[INFO]     [creator]         $BP_JVM_VERSION              11.*                                                         the Java version
+[INFO]     [creator]       Launch Configuration:
+[INFO]     [creator]         $BPL_DEBUG_ENABLED           false                                                        enables Java remote debugging support
+[INFO]     [creator]         $BPL_DEBUG_PORT              8000                                                         configure the remote debugging port
+[INFO]     [creator]         $BPL_DEBUG_SUSPEND           false                                                        configure whether to suspend execution until a debugger has attached
+[INFO]     [creator]         $BPL_HEAP_DUMP_PATH                                                                       write heap dumps on error to this path
+[INFO]     [creator]         $BPL_JAVA_NMT_ENABLED        true                                                         enables Java Native Memory Tracking (NMT)
+[INFO]     [creator]         $BPL_JAVA_NMT_LEVEL          summary                                                      configure level of NMT, summary or detail
+[INFO]     [creator]         $BPL_JFR_ARGS                                                                             configure custom Java Flight Recording (JFR) arguments
+[INFO]     [creator]         $BPL_JFR_ENABLED             false                                                        enables Java Flight Recording (JFR)
+[INFO]     [creator]         $BPL_JMX_ENABLED             false                                                        enables Java Management Extensions (JMX)
+[INFO]     [creator]         $BPL_JMX_PORT                5000                                                         configure the JMX port
+[INFO]     [creator]         $BPL_JVM_HEAD_ROOM           0                                                            the headroom in memory calculation
+[INFO]     [creator]         $BPL_JVM_LOADED_CLASS_COUNT  35% of classes                                               the number of loaded classes in memory calculation
+[INFO]     [creator]         $BPL_JVM_THREAD_COUNT        250                                                          the number of threads in memory calculation
+[INFO]     [creator]         $JAVA_TOOL_OPTIONS                                                                        the JVM launch flags
+[INFO]     [creator]         Using Java version 11.* from BP_JVM_VERSION
+[INFO]     [creator]       BellSoft Liberica JRE 11.0.17: Contributing to layer
+[INFO]     [creator]         Downloading from https://github.com/bell-sw/Liberica/releases/download/11.0.17+7/bellsoft-jre11.0.17+7-linux-amd64.tar.gz
+[INFO]     [creator]         Verifying checksum
+[INFO]     [creator]         Expanding to /layers/paketo-buildpacks_bellsoft-liberica/jre
+[INFO]     [creator]         Adding 124 container CA certificates to JVM truststore
+[INFO]     [creator]         Writing env.launch/BPI_APPLICATION_PATH.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_CACERTS.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_CLASS_COUNT.default
+[INFO]     [creator]         Writing env.launch/BPI_JVM_SECURITY_PROVIDERS.default
+[INFO]     [creator]         Writing env.launch/JAVA_HOME.default
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+[INFO]     [creator]         Writing env.launch/MALLOC_ARENA_MAX.default
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/active-processor-count
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/java-opts
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jvm-heap
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/link-local-dns
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/memory-calculator
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-configurer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jmx
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jfr
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-classpath-9
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/debug-9
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/nmt
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/openssl-certificate-loader
+[INFO]     [creator]       Java Security Properties: Contributing to layer
+[INFO]     [creator]         Writing env.launch/JAVA_SECURITY_PROPERTIES.default
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.append
+[INFO]     [creator]         Writing env.launch/JAVA_TOOL_OPTIONS.delim
+[INFO]     [creator]     
+[INFO]     [creator]     Paketo Buildpack for Syft 1.23.0
+[INFO]     [creator]       https://github.com/paketo-buildpacks/syft
+[INFO]     [creator]         Downloading from https://github.com/anchore/syft/releases/download/v0.62.1/syft_0.62.1_linux_amd64.tar.gz
+[INFO]     [creator]         Verifying checksum
+[INFO]     [creator]         Writing env.build/SYFT_CHECK_FOR_APP_UPDATE.default
+[INFO]     [creator]     
+[INFO]     [creator]     Paketo Buildpack for Executable JAR 6.5.0
+[INFO]     [creator]       https://github.com/paketo-buildpacks/executable-jar
+[INFO]     [creator]       Class Path: Contributing to layer
+[INFO]     [creator]         Writing env/CLASSPATH.delim
+[INFO]     [creator]         Writing env/CLASSPATH.prepend
+[INFO]     [creator]       Process types:
+[INFO]     [creator]         executable-jar: java org.springframework.boot.loader.JarLauncher (direct)
+[INFO]     [creator]         task:           java org.springframework.boot.loader.JarLauncher (direct)
+[INFO]     [creator]         web:            java org.springframework.boot.loader.JarLauncher (direct)
+[INFO]     [creator]     
+[INFO]     [creator]     Paketo Buildpack for Spring Boot 5.22.0
+[INFO]     [creator]       https://github.com/paketo-buildpacks/spring-boot
+[INFO]     [creator]       Build Configuration:
+[INFO]     [creator]         $BP_SPRING_CLOUD_BINDINGS_DISABLED   false  whether to contribute Spring Boot cloud bindings support
+[INFO]     [creator]       Launch Configuration:
+[INFO]     [creator]         $BPL_SPRING_CLOUD_BINDINGS_DISABLED  false  whether to auto-configure Spring Boot environment properties from bindings
+[INFO]     [creator]         $BPL_SPRING_CLOUD_BINDINGS_ENABLED   true   Deprecated - whether to auto-configure Spring Boot environment properties from bindings
+[INFO]     [creator]       Creating slices from layers index
+[INFO]     [creator]         dependencies (61.9 MB)
+[INFO]     [creator]         spring-boot-loader (281.8 KB)
+[INFO]     [creator]         snapshot-dependencies (0.0 B)
+[INFO]     [creator]         application (73.2 KB)
+[INFO]     [creator]       Launch Helper: Contributing to layer
+[INFO]     [creator]         Creating /layers/paketo-buildpacks_spring-boot/helper/exec.d/spring-cloud-bindings
+[INFO]     [creator]       Spring Cloud Bindings 1.10.0: Reusing cached layer
+[INFO]     [creator]       Web Application Type: Contributing to layer
+[INFO]     [creator]         Servlet web application detected
+[INFO]     [creator]         Writing env.launch/BPL_JVM_THREAD_COUNT.default
+[INFO]     [creator]       4 application slices
+[INFO]     [creator]       Image labels:
+[INFO]     [creator]         org.opencontainers.image.title
+[INFO]     [creator]         org.opencontainers.image.version
+[INFO]     [creator]         org.springframework.boot.version
+[INFO]     [creator]     ===> EXPORTING
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/ca-certificates:helper'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:helper'
+[INFO]     [creator]     Reusing layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/bellsoft-liberica:jre'
+[INFO]     [creator]     Reusing layer 'paketo-buildpacks/executable-jar:classpath'
+[INFO]     [creator]     Adding layer 'paketo-buildpacks/spring-boot:helper'
+[INFO]     [creator]     Reusing layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+[INFO]     [creator]     Reusing layer 'paketo-buildpacks/spring-boot:web-application-type'
+[INFO]     [creator]     Adding layer 'launch.sbom'
+[INFO]     [creator]     Reusing 3/5 app layer(s)
+[INFO]     [creator]     Adding 2/5 app layer(s)
+[INFO]     [creator]     Adding layer 'launcher'
+[INFO]     [creator]     Adding layer 'config'
+[INFO]     [creator]     Reusing layer 'process-types'
+[INFO]     [creator]     Adding label 'io.buildpacks.lifecycle.metadata'
+[INFO]     [creator]     Adding label 'io.buildpacks.build.metadata'
+[INFO]     [creator]     Adding label 'io.buildpacks.project.metadata'
+[INFO]     [creator]     Adding label 'org.opencontainers.image.title'
+[INFO]     [creator]     Adding label 'org.opencontainers.image.version'
+[INFO]     [creator]     Adding label 'org.springframework.boot.version'
+[INFO]     [creator]     Setting default process type 'web'
+[INFO]     [creator]     Saving docker.io/eazybytes/cards:latest...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21:50 min
+[INFO] Finished at: 2022-12-19T17:58:24+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.4:build-image (default-cli) on project cards: Unrecognized token 'Bad': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+[ERROR]  at [Source: (org.apache.http.conn.EofSensorInputStream); line: 1, column: 5]
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

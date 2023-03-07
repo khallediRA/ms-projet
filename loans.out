@@ -96,3 +96,5 @@
 2022-12-19 17:19:19.110  INFO [loans,3259ec2320407143,bb7995db21a42efa] 5316 --- [nio-8090-exec-2] c.e.loans.controller.LoansController     : getLoansDetails() method Started
 2022-12-19 17:19:19.113  INFO [loans,3259ec2320407143,bb7995db21a42efa] 5316 --- [nio-8090-exec-2] c.e.loans.controller.LoansController     : getLoansDetails() method Ended
 2022-12-19 17:21:56.655  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:26:56.670  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:31:56.697  INFO [loans,,] 5316 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

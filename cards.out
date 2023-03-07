@@ -88,3 +88,5 @@
 2022-12-19 17:19:19.126  INFO [cards,3259ec2320407143,b6bcd19459aa66b9] 10040 --- [nio-9000-exec-2] c.e.cards.controller.CardsController     : getCardDetails() method started
 2022-12-19 17:19:19.129  INFO [cards,3259ec2320407143,b6bcd19459aa66b9] 10040 --- [nio-9000-exec-2] c.e.cards.controller.CardsController     : getCardDetails() method ended
 2022-12-19 17:22:02.003  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:27:02.014  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:32:02.041  INFO [cards,,] 10040 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

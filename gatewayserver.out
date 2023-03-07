@@ -62,3 +62,5 @@
 2022-12-19 17:19:19.072 DEBUG [gatewayserver,3259ec2320407143,3259ec2320407143] 1924 --- [nio-8072-exec-4] c.e.gatewayserver.filters.TraceFilters   : Eazybank-correlation-id generated in tracing filter : 31ef2a32-d40b-41ee-be9d-a69c1660e7dd
 2022-12-19 17:19:19.136 DEBUG [gatewayserver,,] 1924 --- [ctor-http-nio-2] c.e.g.filters.ResponseTraceFilter        : updated the correlation id to the outbound header : 31ef2a32-d40b-41ee-be9d-a69c1660e7dd
 2022-12-19 17:22:47.183  INFO [gatewayserver,,] 1924 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:27:47.274  INFO [gatewayserver,,] 1924 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:32:47.324  INFO [gatewayserver,,] 1924 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

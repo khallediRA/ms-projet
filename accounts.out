@@ -90,3 +90,5 @@
 2022-12-19 17:19:19.083  INFO [accounts,3259ec2320407143,03fb13dede864de4] 14356 --- [nio-8080-exec-3] c.e.a.controller.AccountsController      : myCustomerDetails() method started
 2022-12-19 17:19:19.134  INFO [accounts,3259ec2320407143,03fb13dede864de4] 14356 --- [nio-8080-exec-3] c.e.a.controller.AccountsController      : myCustomerDetails() method ended
 2022-12-19 17:22:44.289  INFO [accounts,,] 14356 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:27:44.396  INFO [accounts,,] 14356 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-12-19 17:32:44.661  INFO [accounts,,] 14356 --- [trap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
