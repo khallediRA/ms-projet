@@ -5,7 +5,7 @@ metadata:
   labels:
     app: loans
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: loans
