@@ -13,4 +13,5 @@ public class CustomerDetails {
     private Accounts accounts;
     private List<Loan> loans;
     private List<Card> cards;
+    private List<Transaction> transactions;
 }

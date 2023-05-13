@@ -1,0 +1,500 @@
+kubectl get pods
+kubectl get svc -o --wide
+kubectl get svc -o wide
+curl -i -p 139.144.162.223
+curl -o /dev/null -s -w 'Total: %{time_total}s\n'  https://www.google.com
+curl -o /dev/null -s -w 'Total: %{time_total}s\n' 139.144.162.223
+curl -o /dev/null -s -w 'Total: %{time_total}s\n' 139.144.162.223
+curl -o /dev/null -s -w 'Total: %{time_total}s\n' 139.144.162.223
+curl -o /dev/null -s -w 'Total: %{time_total}s' 139.144.162.223
+curl -o /dev/null -s -w 'Total: %{time_total}s\n' 139.144.162.223
+kubectl get pods
+kubectl get svc
+cd Desktop/
+cd SpringBootProjects/r
+cd SpringBootProjects/
+cd ..
+cd devops/
+ll
+cd getting-started-k8s/
+ll
+docker images -a
+ll
+cd Deployments/
+code .
+kubectl apply -f deploy-complete.yml 
+kubectl get pods
+kubectl describe pod web-deploy-56dd676bb9-nlnp6
+kubectl get svc
+kubectl apply -f deploy-complete.yml 
+kubectl delete -f deploy-complete.yml 
+kubectl apply -f deploy-complete.yml 
+kubectl describe web-deploy-56dd676bb
+kubectl describe pod web-deploy-56dd676bb
+kubectl apply -f deploy-complete.yml 
+kubectl get pods -o wide 
+kubectl describe pod web-deploy-6d9c88646d-qrd6k
+kubectl get pods -o wide 
+vim deploy-complete.yml 
+kubectl get pods -o wide 
+kubectl describe pod hello-pod 
+kubectl delete -f deploy-complete.yml 
+kubectl get pods --watch
+cd Desktop/
+cd SpringBootProjects/
+ll
+cd aam_backend/
+ll
+cd src/main/java/com/backend/
+ll
+cd aam/
+ll
+cd controllers/
+ll
+code PdfController.java 
+c -
+cd -
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+cd aam_backend/
+code .
+git status
+wsl --shutdown
+cd Desktop/SpringBootProjects/
+ll
+cd "udemy cours reworked"/
+ll
+cd accounts/accounts/
+ll
+vim Dockerfile
+docker ps
+vim Dockerfile
+cd Desktop/react_Projects/aam_frontend/
+code .
+cd 
+cd Desktop/SpringBootProjects/
+cd "udemy cours reworked"/
+ll
+vim gatewayserver/src/main/resources/application.properties 
+cd Desktop/react_Projects/aam_frontend/
+git stats
+git status
+cd Desktop/react_Projects/aam_frontend/
+ll
+npm run start 
+cd Desktop/react_Projects/
+ll
+cd aam_frontend/
+code .
+mvn -v
+gh
+gh secret set AAM_VPC
+gh secret set AAMVPC
+MinTTY gh secret set AAM_VPC_USERNAME
+history
+cd Desktop/react_Projects/aam_frontend/
+touch .github/workflows/deploy.yml
+cat .github/workflows/deploy.yml
+vim .github/workflows/deploy.yml
+ll
+vim .github/workflows/deploy.yml
+vim .github/workflows/deploy.yml
+ll
+mkdir .github
+ll
+cd .github/
+mkdir workflows
+cd workflows/
+ll
+vim deploy.yml 
+ll
+cat deploy.yml 
+vim deploy.yml 
+rm -rf deploy.yml 
+vim deploy.yml 
+vim deploy.yml 
+cd ..
+cd ..
+git add .
+git commit -m "CD pipeline added" 
+git push -u origin main  
+vim deploy.yml 
+npm run build
+ll
+rm -rf build/
+npm -v
+cd .github/workflows/
+vim deploy.yml
+cd ../../..
+cd aam_frontend/
+git commit -m "cd fixed"
+git add .
+git commit -m "cd fixed"
+git push 
+vim deploy.yml
+vim .github/workflows/deploy.yml 
+git add .
+git commit -m "cd fixed"
+git push 
+code .
+git add .
+git commit -m "cd fixed"
+git push 
+npm ci
+ll
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "cd fixed"
+git push 
+ll
+vim package.json
+git add .
+git commit -m "cd fixed"
+git push 
+vim .github/workflows/deploy.yml
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+vim .github/workflows/deploy.yml
+vim .github/workflows/deploy.yml
+ll
+gh secret set SSH_PRIVATE_KEY < id_rsa 
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+rm -rf id_rsa
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+npm run build
+vim .github/workflows/deploy.yml
+git add .
+git commit -m "added CI=false to build under package.json && changed the cd script"
+git push 
+history
+vim .github/workflows/deploy.yml
+ls
+ll
+vim package.json
+vim package.json
+vim package.json
+npm run build
+ll
+git pull -hard
+git pull -help
+git pull
+ll
+vim package.json
+git reset --hard origin/main
+ll
+vim package.json 
+cd ../../SpringBootProjects/aam_backend/
+mkdir .github/workflows
+mkdir .github
+mkdir .github/workflows
+cp ../../react_Projects/aam_frontend/.github/workflows/deploy.yml .github/workflows/deploy.yml
+vim .github/workflows/deploy.yml
+rm -rf .github/
+cd Desktop/
+cd react_Projects/
+git clone https://github.com/adrianhajdin/project_3D_developer_portfolio.git
+cd project_3D_developer_portfolio/
+ll
+npm ci
+cd "C:\Users\HP\Desktop\chatgpt"
+ll
+vim react_services_webrtc_spring\ example.png
+ll
+cd Desktop/SpringBootProjects/
+ll
+cd "udemy cours reworked"/
+ll
+cd accounts/accounts/
+ll
+cd docker-compose/
+cd default/
+ll
+vim docker-compose.yml 
+cd ..
+cd ../../../..
+cd "udemy cours reworked"/
+ll
+git add .
+git commit -m "03-07-2023"
+git push -u origin main 
+git status
+docker images
+clear
+docker images
+docker tag eazybytes/loans:latest rkhalledi/loans:latest
+docker push rkhalledi/loans:latest
+clear
+docker images
+docker tag eazybytes/eurekaserver:latest rkhalledi/eurekaserver:latest
+docker push rkhalledi/eurekaserver:latest
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-379909
+clear
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-379909
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-379909
+clear
+kubectl
+clear
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-379909
+kubectl get pods
+clear
+kubectl get pods
+kubectl get nodes
+clear
+gcloud container cluster get-credentials cluster-1
+gcloud container cluster get-credentials cluster-1 --zone us-central1-c --project microservices-37990
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-37990
+gcloud components install gke-gcloud-auth-plugin
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project microservices-379909
+kubetctl get nodes
+kubectl get nodes
+kubectl get nodes -o wide
+kubectl get nodes -o wide
+gcloud --version
+kubectl get deployment 
+kubectl get all
+cd Desktop/SpringBootProjects/
+cd "udemy cours reworked"/
+ll
+mkdir k8s
+cd k8s/
+code .
+clear
+docker images
+cd ../accounts/accounts/docker-compose/default/
+ll
+vim docker-compose.yml 
+docker image push eazybytes/eurekaserver
+docker images
+docker tag eazybtes/cards:latest rkhalledi/cards:latest
+docker tag eazybytes/cards:latest rkhalledi/cards:latest
+docker push rkhalledi/cards:latest
+docker login 
+minpTTY docker login
+winpty docker login
+docker push rkhalledi/cards:latest
+docker images
+docker tag eazybytes/gatewayserver:latest rkhalledi/gatewayserver:latest
+docker push rkhalledi/gatewayserver:latest
+code Desktop/react_Projects/aam_frontend/
+cd Desktop/SpringBootProjects/
+cd "udemy cours reworked"/
+cd accounts/accounts/
+vim Dockerfile
+git branch -v
+git branches -v
+git branchs -v
+git branch -v
+cd Desktop/react_Projects/aam_frontend/
+code package.json 
+code .
+cd Desktop/SpringBootProjects/
+cd "udemy cours reworked"/
+cd k8s/
+ll
+vim configmaps.yml 
+gcloud container clusters get-credentials cluster-1 --zone us-central1-a --project microservices-379909
+kubectl get pods
+kubectl get nodes
+kubectl get nodes
+cd Desktop/SpringBootProjects/
+cd "udemy cours reworked"/
+ll
+cd k8s/
+l
+ll
+clear
+kubectl get deployment
+kubectl get all
+kubectl get svc
+code .
+docker images 
+docker images |grep rkhalledi|
+docker images |grep rkhalledi| awk '{print $1}'
+cd ??
+cd ..
+cd ..
+ckear
+clear
+cd "udemy cours reworked"/
+cd accounts
+ll
+cd accounts/
+ll
+cd docker-compose/
+ll
+cd default/
+ll
+vim docker-compose.yml 
+cd ..
+cd ..
+ll
+vim src/main/resources/application.properties 
+kubectl get all
+kubectl get configmap
+cd ../../k8s/
+kubectl apply -f configmaps.yml
+kubectl apply -f configmaps.yml
+kugect get configmap
+kubectl get configmap
+kubectl apply -f zipkingserver.yml 
+vim zipkingserver.yml 
+code zipkingserver.yml 
+kubectl apply -f zipkingserver.yml
+kubectl apply -f configserver.yml
+kubectl apply -f eurekaserver.yml
+kubectl apply -f accounts.yml
+kubectl get svc
+ kubectl get pods
+code .
+kubectl get svc -o wide
+kubectl get replicasets
+kubectl get replicasets
+kubect describe pod a
+kubectl describe pod a
+docker images
+docker tag eazybytes/accounts rkhalledi/accounts:latest
+docker images
+docker push rkhalledi/accounts:latest
+kubectl get pods -o wide
+kubectl get replicasets -o wide
+kubectl logs conf
+kubectl logs configserver-deployment-8686ff698f
+kubectl get pods
+kubectl logs configserver-deployment-8686ff698f-7m69m 
+kubectl get replicasets
+kubectl get pods
+kubectl logs accounts-deployment-5b78bbf98b-pm7s6
+kubectl get pods
+kubectl logs e
+kubectl get pods -o wide
+kubectl get namespaces
+kubectl get namespaces -o wide
+kubectl logs -n default a
+kubectl logs -n default --selector-name=accounts
+clear
+kubectl get svc -o wide
+kubetctl delete *.yml 
+kubectl delete *.yml 
+kubectl delete -f *.yml 
+kubectl delete -f accounts.yml 
+kubectl apply -f accounts.yml
+kubectl get pods
+kubectl get replicasets
+kubectl logs accounts-deployment-5b78bbf98b-t2pgc
+kubectl logs -f accounts-deployment-5b78bbf98b-t2pgc
+kubectl get deployments
+kubectl delete -f zipkingserver.yml 
+kubectl apply -f zipkingserver.yml
+code zipkingserver.yml
+kubectl apply -f zipkingserver.yml
+code .
+kubectl apply -f zipkingserver.yml
+kubectl get pods
+kubectl logs accounts-deployment-5b78bbf98b-t2pgc
+clear
+kubectl get pods
+kubectl logs zipkin-deployment-6d588859dc-r5lkd
+kubetclt get svc
+kubeclt get svc
+kubectl get svc
+code .
+kubectl apply zipkingserver.yml
+kubectl apply -f zipkingserver.yml
+kubectl get svc
+kubectl get pods
+kubectl logs -f zipkin-deployment-6d588859dc-r5lkd
+code zipkingserver.yml 
+kubectl apply -f zipkingserver.yml
+curl http://34.69.141.74:8071/accounts/prod
+curl -i -P http://34.69.141.74:8071/accounts/prod
+curl -i -p http://34.69.141.74:8071/accounts/prod
+kubectl get replicatsets
+vim accounts.yml
+kubectl apply -f accounts.yml
+kubectl get pods 
+kubectl get replicasets
+kubectl get pods
+kubectl delete pods accounts-deployment-5b78bbf98b-t2pgc
+cd ..
+cd accounts/accounts/
+code .
+mvn clean package 
+docker build . -t rkhalledi/accounts:latest
+docker push rkhaleldi/accounts:latest
+docker images 
+docker images 
+docker push rkhalledi/accounts:latest
+docker tag rkhalledi/accounts:latest rkhalledi/accounts:k8s
+docker push rkhalledi/accounts:k8s
+kubectl get deployments
+kubectl scale deployment accounts-deployment --replicas=3
+kubectl get pods
+clear
+kubectl rollout undo deployment accounts-deployment --to-revision=1
+kubectl get pods
+kubectl logs pod a
+kubectl logs a
+kubectl get pods
+kubectl logs accounts-deployment-5b78bbf98b-r4ql5
+kubectl logs accounts-deployment-5b78bbf98b-r4ql5 -o wide
+kubetctl logs --help 
+kubectl logs --help 
+kubectl logs --help --tail
+kubectl logs accounts-deployment-5b78bbf98b-r4ql5 --tail 
+kubectl logs accounts-deployment-5b78bbf98b-r4ql5 --tail=1
+kubectl logs accounts-deployment-5b78bbf98b-r4ql5 --tail
+kubectl logs --tail accounts-deployment-5b78bbf98b-r4ql5
+docker images
+docker images | grep eazybytes | awk '{print($1)}'
+docker tag eazybytes/configserver rkhalledi/configserver
+docker push rkhalledi/configserer
+docker push rkhalledi/configserver
+kubectl get pods
+kubectl logs eurekaserver-deployment-6ff65bcb7-w2pr7
+clear
+kubectl get pods 
+kubectl delete pod acc
+kubectl delete pod accounts-deployment-5b78bbf98b-r4ql5
+kubectl delete pod configserver-deployment-8686ff698f-7m69m 
+kubectl delete pod eurekaserver-deployment-6ff65bcb7-w2pr7
+kubectl get pods
+kubectl get pods -o wide
+kubectl get svc
+kubectl logs -f zipkin-deployment-6d588859dc-r5lkd
+kubectl get pods
+kubectl describe pod accounts-deployment-5b78bbf98b-km7rd
+clear
+kubectl set image deployment accounts-deployment accounts=rkhalledi/accounts:k8s
+kubectl get pods
+kubectl get pods
+kubectl get pods -o wide
+kubectl get pods -o wide
+kubectl get pods
+kubectl get events --sort-by=.metadata.creationTimestamp
+kubectl get events --sort-by=.metadata.creationTimestamp
+clear
+kubectl rollout history deployment accounts-deployment
+kubectl get events --sort-by=.metadata.creationTimestamp
+clear
+gcloud logging
